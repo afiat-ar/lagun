@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contactos">
+
+    <Button
+        android:id="@+id/btn_contacto_dos"
+        android:layout_width="229dp"
+        android:layout_height="87dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Vecina"
+        android:textSize="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_contacto_uno"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <Button
+        android:id="@+id/btn_contacto"
+        android:layout_width="229dp"
+        android:layout_height="87dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Lola"
+        android:textSize="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+        android:id="@+id/btn_contacto_uno"
+        android:layout_width="229dp"
+        android:layout_height="87dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Paco"
+        android:textSize="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_contacto"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/btn_contacto_tres"
+        android:layout_width="229dp"
+        android:layout_height="87dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Hijo"
+        android:textSize="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_contacto_dos"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_return"
+        android:layout_width="69dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_contacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355"
+        app:srcCompat="@drawable/ic_baseline_keyboard_return_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
